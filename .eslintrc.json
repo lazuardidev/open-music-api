@@ -15,6 +15,7 @@
         "camelcase": "off",
         "object-curly-newline": "off",
         "operator-linebreak": "off",
-        "prefer-template": "off"
+        "prefer-template": "off",
+        "max-len": "off"
     }
 }

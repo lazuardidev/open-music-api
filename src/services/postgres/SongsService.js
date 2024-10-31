@@ -24,6 +24,7 @@ class SongsService {
     if (!result.rows[0].id) {
       throw new InvariantError('Failed to add song.');
     }
+
     return result.rows[0].id;
   }
 
